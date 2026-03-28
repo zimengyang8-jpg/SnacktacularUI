@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D8459B52F783B080066E028 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8459B42F783B080066E028 /* Photo.swift */; };
+		3D8459B72F783B980066E028 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8459B62F783B980066E028 /* PhotoViewModel.swift */; };
 		3DAACB802F70879A00A90569 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3DAACB7F2F70879A00A90569 /* FirebaseAuth */; };
 		3DAACB822F70879A00A90569 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3DAACB812F70879A00A90569 /* FirebaseFirestore */; };
 		3DAACB842F70879A00A90569 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3DAACB832F70879A00A90569 /* FirebaseStorage */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D8459B42F783B080066E028 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		3D8459B62F783B980066E028 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
 		3DAACB5E2F7081FC00A90569 /* SnacktacularUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnacktacularUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAACB872F709C3000A90569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DAACB882F709C3000A90569 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -70,7 +74,9 @@
 			children = (
 				3DAACB8B2F709C3000A90569 /* SnacktacularUIApp.swift */,
 				3DAACB942F70C39900A90569 /* Spot.swift */,
+				3D8459B42F783B080066E028 /* Photo.swift */,
 				3DAACB982F70C7EA00A90569 /* SpotViewModel.swift */,
+				3D8459B62F783B980066E028 /* PhotoViewModel.swift */,
 				3DAACB8A2F709C3000A90569 /* LogInView.swift */,
 				3DAACB922F709CDA00A90569 /* ListView.swift */,
 				3DAACB962F70C49A00A90569 /* SpotDetailView.swift */,
@@ -161,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8459B52F783B080066E028 /* Photo.swift in Sources */,
 				3DAACB972F70C49A00A90569 /* SpotDetailView.swift in Sources */,
 				3DAACB902F709C3000A90569 /* LogInView.swift in Sources */,
 				3DAACB9B2F70DB3800A90569 /* PhotoView.swift in Sources */,
+				3D8459B72F783B980066E028 /* PhotoViewModel.swift in Sources */,
 				3DAACB992F70C7EA00A90569 /* SpotViewModel.swift in Sources */,
 				3DAACB912F709C3000A90569 /* SnacktacularUIApp.swift in Sources */,
 				3DAACB932F709CDA00A90569 /* ListView.swift in Sources */,
